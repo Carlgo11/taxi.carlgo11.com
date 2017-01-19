@@ -30,7 +30,7 @@
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Taxi Service</h3>
+              <h3 class="masthead-brand"><a href="/">Taxi Service</a></h3>
             </div>
           </div>
           <div class="inner cover">
@@ -50,7 +50,7 @@
             <div id="main-3" class="main">
               <p class="lead">Enjoy your ride!</p>
               <p class="lead">Your driver, <b>Ali</b>, will pick you up in a silver Toyota Prius.</p>
-              <img src="res/images/Toyota-Prius.png" style="width: 50%">
+              <img src="res/images/Toyota-Prius.png" style="width: 50%" alt="">
             </div>
           </div>
           <div class="mastfoot">
@@ -61,11 +61,10 @@
         </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="./res/js/bootstrap.min.js"></script>
     <script>
-      $(window).load(function () {
-          $('.main:visible').hide();
+      $(document).ready(function () {
           $('#main-1').show();
       });
 
